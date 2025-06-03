@@ -1,1 +1,0 @@
-for oracla vm
