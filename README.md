@@ -151,10 +151,38 @@ We need an operating system (OS) to install inside our virtual machine. In this 
   - Predictable package management with `yum`/`dnf`
   - Systemd-based architecture common in servers
 
-Download from: [https://www.centos.org/download/](https://www.centos.org/download/)  
-You can also choose [AlmaLinux](https://almalinux.org) or [Rocky Linux](https://rockylinux.org)
+## 📦 Choosing the Right CentOS ISO: `boot.iso` vs `dvd.iso`
 
-> 💡 Select the **DVD ISO** version — it contains the full installation environment.
+When downloading CentOS, you may notice there are two common ISO types: `boot.iso` and `dvd1.iso`. Here's the difference:
+
+### 🔹 `boot.iso`
+- A small installer (~1.2 GB)
+- **Requires internet** during installation
+- Downloads the rest of the system from CentOS repositories
+
+✅ Use if:
+- You have a fast and stable internet connection  
+- You want to do a minimal or custom install
+
+🔗 Download: [CentOS 9 Stream boot.iso (x86_64)](https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/)
+
+---
+
+### 🔸 `dvd1.iso`
+- Full offline installer (~7–9 GB)
+- Includes everything you need to install CentOS
+- No internet required during setup
+
+✅ Use if:
+- You prefer a full GUI-based or offline install  
+- You're installing on a virtual machine and want fewer installation errors
+
+🔗 Download: [CentOS 9 Stream DVD ISO Mirrors](https://www.centos.org/download/)
+
+---
+
+📌 **Recommendation**: For virtual machine installation (like in VirtualBox), `dvd1.iso` is usually easier and more reliable.
+
 
 ---
 
