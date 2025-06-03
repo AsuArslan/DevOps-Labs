@@ -1,4 +1,4 @@
-# DevOps Lab · Know-How Branchss
+# DevOps Lab · Know-How Branch
 
 Welcome to my **DevOps Lab** — a hands-on space where I explore, learn, and document my journey into the world of DevOps.
 
