@@ -28,5 +28,3 @@ Feel free to follow along, clone, or contribute ideas. The goal is progress — 
 
 ---
 
-🛠️ **Work in Progress** – Updated regularly as I grow.
-
