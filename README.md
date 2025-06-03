@@ -17,8 +17,6 @@ This repository serves as both a personal knowledge base and a practical portfol
 This `know-how` branch is dedicated to pure knowledge — curated notes, tool breakdowns, and essential theory. Other branches may include project code, configurations, and infrastructure templates.
 
 
-
-
 ## 🚀 Why This Exists
 
 As someone transitioning into the DevOps field, I believe in learning by doing and documenting as I go. This repo reflects my commitment to mastering DevOps with clarity and discipline.
