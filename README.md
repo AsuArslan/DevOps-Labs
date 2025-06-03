@@ -76,15 +76,19 @@ With a few lines of code, you can:
 
 ---
 
-## 📁 What's Inside This Branch?
-
-- Notes on setting up Oracle VM / VirtualBox
-- Screenshots and walkthroughs for manual Linux VM creation
-- Lab setups for running Jenkins, Docker inside a VM
-- Introduction to Vagrant (soon)
-
----
-
 📌 **Note**: This branch focuses on the **manual VM approach**, but will gradually include **automated IaC-based VMs** as well.
 
 Happy virtualizing! ☁️💻
+
+---
+
+## ⚠️ Prerequisite: Enable Virtualization in BIOS/UEFI
+
+Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled** on your system:
+
+- For **Intel** CPUs: VT-x  
+- For **AMD** CPUs: AMD-V / SVM
+
+You can enable this setting in your system's BIOS or UEFI menu. Without this, VirtualBox may fail to launch virtual machines properly.
+
+Once virtualization is enabled, you're ready to proceed with the setup.
