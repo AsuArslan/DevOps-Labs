@@ -285,6 +285,13 @@ The **USB Tablet** option provides:
 6. **User Settings**:
    - Set root password.
    - Create a regular user with admin rights (recommended).
+   - If you create a strong password, clicking the Done button once will be enough.
+However, if the password is weak, you'll need to click the Done button twice to confirm.
+
+     
+   ![image](https://github.com/user-attachments/assets/96977608-b7fa-4a1b-9d7b-5aa8368259c5)
+   ![image](https://github.com/user-attachments/assets/1fe9b239-2fcd-4818-bee9-077594b6d5c7)
+
 
 Click `Begin Installation`, then wait for the process to complete and reboot.
 
