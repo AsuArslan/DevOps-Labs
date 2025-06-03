@@ -217,6 +217,7 @@ When downloading CentOS, you may notice there are two common ISO types: `boot.is
 > This simulates booting from a CD — it lets the VM "install" CentOS as if it were a real computer.
 
 ![image](https://github.com/user-attachments/assets/e29dfcdd-cefb-49c0-a3a8-bcd05f174304)
+![image](https://github.com/user-attachments/assets/249d89eb-fe22-49d7-a7b1-ebf904a385a6)
 
 
 ---
