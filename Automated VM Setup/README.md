@@ -25,3 +25,19 @@ Popular tools used for automation:
 - Ideal for local development and DevOps labs
 
 > 💡 With one command (`vagrant up`), you can spin up a ready-to-use VM — no manual clicks required.
+
+## 📦 Vagrant for VMs – Quick Overview
+
+| Feature | Description |
+|--------|-------------|
+| **No OS Installation** | No need to install the OS manually. Vagrant uses pre-built VM images called "boxes", available for free on [Vagrant Cloud](https://app.vagrantup.com/boxes/search). |
+| **Vagrantfile** | A configuration file that defines your VM’s settings, such as OS, memory, CPU, provisioning scripts, and synced folders. All changes are made through this file. |
+| **Provisioning** | Automatically installs packages or runs scripts during VM creation. Helpful for setting up development environments. |
+| **Simple Commands** | |
+| `vagrant init <boxname>` | Initializes a new Vagrantfile with the specified box |
+| `vagrant up` | Starts and provisions the VM |
+| `vagrant ssh` | Connects to the VM via SSH |
+| `vagrant halt` | Shuts down the VM |
+| `vagrant destroy` | Destroys the VM and removes all associated resources |
+
+
