@@ -121,95 +121,127 @@ Once this is done, VirtualBox will be able to run virtual machines successfully.
 
 ---
 
-## 🧩 Step-by-Step: Install VirtualBox and Set Up a Virtual Machine
+---
 
-Now that virtualization is enabled on your system, let's move on to installing Oracle VirtualBox and creating your first virtual machine.
+## 🧩 Step-by-Step: Install VirtualBox and Set Up a CentOS Virtual Machine (with Explanations)
 
 ---
 
-### ✅ Step 1: Download and Install Oracle VirtualBox
+### ✅ Step 1: Install Oracle VirtualBox
 
-1. Visit the official website: [https://www.virtualbox.org](https://www.virtualbox.org)
-2. Click on `Downloads` and select **Windows hosts**.
-3. Download the `.exe` file and run the installer.
-4. Proceed with the default installation steps (Next → Next → Install).
+We use **Oracle VirtualBox** as the hypervisor — a tool that lets us create and manage virtual machines on top of our physical operating system.
 
-> 📷 Google image search:  
-> `virtualbox installation windows screenshot`
+- **Why VirtualBox?**  
+  It's free, open-source, cross-platform, and beginner-friendly — perfect for DevOps learners who need safe and disposable environments.
 
----
-
-### 💾 Step 2: Download a Linux ISO (Ubuntu)
-
-You need an operating system to install inside your VM. For starters, **Ubuntu Desktop** is beginner-friendly and widely supported.
-
-1. Visit: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
-2. Download the latest **Ubuntu LTS ISO** file (e.g., `ubuntu-22.04.4-desktop-amd64.iso`).
-
-> 📷 Google image search:  
-> `ubuntu iso download page`
+Download from: [https://www.virtualbox.org](https://www.virtualbox.org)
 
 ---
 
-### 🛠️ Step 3: Create a New Virtual Machine in VirtualBox
+### 💾 Step 2: Download CentOS ISO
 
-1. Open VirtualBox and click **"New"**.
-2. Give your VM a name (e.g., `Ubuntu-DevOps`).
-3. Set Type = `Linux`, Version = `Ubuntu (64-bit)`
-4. Assign memory (RAM) — 2048 MB or more is recommended.
-5. Create a virtual hard disk → Use default `VDI`, dynamically allocated → 20 GB+
+We need an operating system (OS) to install inside our virtual machine. In this case, we choose **CentOS**:
 
-> 📷 Google image search:  
-> `virtualbox new vm settings ubuntu`
+- **Why CentOS (or RHEL-based systems)?**  
+  It mirrors real-world enterprise environments. Many DevOps tools are tested and deployed on Red Hat-based systems in production.  
+  CentOS (or successors like AlmaLinux/Rocky) offers:
+  - Stability
+  - Predictable package management with `yum`/`dnf`
+  - Systemd-based architecture common in servers
 
----
+Download from: [https://www.centos.org/download/](https://www.centos.org/download/)  
+You can also choose [AlmaLinux](https://almalinux.org) or [Rocky Linux](https://rockylinux.org)
 
-### 📂 Step 4: Mount the ISO and Start the VM
-
-1. Select your VM and click **"Start"**.
-2. VirtualBox will ask you to select a start-up disk → browse and select the **Ubuntu ISO** you downloaded.
-3. The VM will boot using the ISO — just like installing an OS on a real PC.
-
-> 📷 Google image search:  
-> `virtualbox mount iso ubuntu`
+> 💡 Select the **DVD ISO** version — it contains the full installation environment.
 
 ---
 
-### 💡 Step 5: Install Ubuntu (Inside the VM)
+### 🛠️ Step 3: Create a New VM in VirtualBox
 
-1. Choose language and click `Install Ubuntu`.
-2. Select:
-   - Keyboard layout
-   - Normal installation
-   - Use entire virtual disk
-3. Choose a username and password.
-4. Wait for installation to complete and click `Restart Now`.
+1. Click `New` in VirtualBox.
 
-> 📷 Google image search:  
-> `ubuntu installation steps virtualbox`
+2. Fill in:
+   - **Name**: e.g., `CentOS-Lab`
+   - **Type**: `Linux`  
+     > This tells VirtualBox to optimize settings for Linux-based systems.
+   - **Version**: `Red Hat (64-bit)`  
+     > CentOS is built from Red Hat sources, so this is the most compatible choice.
 
----
+3. **Memory (RAM)**: Allocate at least `2048 MB` (2 GB)  
+   > This ensures the VM can run basic tools and GUI if needed. Lower memory might freeze or slow down installation.
 
-### 🧪 Step 6: Your Virtual DevOps Lab Is Ready!
-
-Once Ubuntu is installed, your VM will boot into the OS like a real computer.
-
-From here, you can:
-- Open the terminal
-- Install tools like Git, Docker, or Jenkins
-- Simulate real server environments
-- Practice DevOps setups safely
+4. **Hard Disk**:
+   - Create a virtual hard disk now.
+   - Choose **VDI (VirtualBox Disk Image)** → default, works best with VirtualBox.
+   - **Dynamically allocated**: Uses disk space as needed, not all at once.
+   - Set **Size** to at least `20 GB`  
+     > Allows you to install packages and tools without worrying about space.
 
 ---
 
-## 🎉 Summary
+### 📂 Step 4: Mount the ISO and Boot
 
-By following these steps, you now have:
-- ✅ Oracle VirtualBox installed
-- ✅ A virtual Linux machine running Ubuntu
-- ✅ A ready-to-use DevOps lab environment
+- Select the VM and click `Start`.
+- When prompted, select the **CentOS ISO** you downloaded earlier.
 
-Up next: We'll explore what you can do **inside** the VM — such as Docker installation, network configs, and CI/CD experiments.
+> This simulates booting from a CD — it lets the VM "install" CentOS as if it were a real computer.
 
+---
 
+### 🧱 Step 5: CentOS Installation (Explained Choices)
+
+1. Choose **Language & Keyboard Layout**: English / your local settings.
+
+2. **Installation Destination**:
+   - Select the available virtual hard disk.
+   - Click "Done" — CentOS will automatically partition the disk.
+   > For beginners, automatic partitioning is fine.
+
+3. **Software Selection**:
+   - You can choose:
+     - **Minimal Install** → for lightweight CLI-only system.
+     - **Server with GUI** → for desktop-like experience.
+   - **Why choose GUI or not?**
+     - CLI (command line) is closer to real-world DevOps environments.
+     - GUI is helpful if you're new to Linux and prefer visual navigation.
+     - In DevOps learning labs, CLI is often preferred for Docker, Ansible, etc.
+
+4. **Network & Hostname** (optional):
+   - Enable network connection if you plan to install packages.
+   - Set a hostname like `centos-lab.local`.
+
+5. **User Settings**:
+   - Set root password.
+   - Create a regular user with admin rights (recommended).
+
+Click `Begin Installation`, then wait for the process to complete and reboot.
+
+---
+
+### 🧪 Step 6: First Boot — You're In!
+
+After rebooting, log in with your created user.
+
+Now you're ready to:
+- Run `sudo dnf update`
+- Install Git, Docker, Ansible, etc.
+- Practice SSH, firewalls, and service configuration
+
+---
+
+## 🧠 Summary of Key Decisions & Why
+
+| Step | Choice | Why |
+|------|--------|-----|
+| OS | CentOS / Alma / Rocky | Mirrors enterprise production servers |
+| RAM | ≥ 2048 MB | Ensures smooth performance |
+| Disk | VDI, 20 GB+, dynamically allocated | Flexible and space-efficient |
+| Install type | Minimal vs. Server GUI | CLI = realistic for DevOps; GUI = visual support for beginners |
+| VM type | Red Hat (64-bit) | Matches CentOS compatibility |
+| User setup | Create regular user + root | Follows best practice and security |
+
+---
+
+✅ You now have a CentOS-based virtual lab ready for DevOps experimentation.  
+Next, we'll install core tools like Docker, NGINX, or Jenkins.
 
