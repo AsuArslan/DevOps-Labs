@@ -261,12 +261,15 @@ The **USB Tablet** option provides:
 
 1. Choose **Language & Keyboard Layout**: English / your local settings.
 
-2. **Installation Destination**:
+   ![image](https://github.com/user-attachments/assets/1357e0db-938d-4e1f-add8-4f37c00d936d)
+
+
+3. **Installation Destination**:
    - Select the available virtual hard disk.
    - Click "Done" — CentOS will automatically partition the disk.
    > For beginners, automatic partitioning is fine.
 
-3. **Software Selection**:
+4. **Software Selection**:
    - You can choose:
      - **Minimal Install** → for lightweight CLI-only system.
      - **Server with GUI** → for desktop-like experience.
@@ -275,11 +278,11 @@ The **USB Tablet** option provides:
      - GUI is helpful if you're new to Linux and prefer visual navigation.
      - In DevOps learning labs, CLI is often preferred for Docker, Ansible, etc.
 
-4. **Network & Hostname** (optional):
+5. **Network & Hostname** (optional):
    - Enable network connection if you plan to install packages.
    - Set a hostname like `centos-lab.local`.
 
-5. **User Settings**:
+6. **User Settings**:
    - Set root password.
    - Create a regular user with admin rights (recommended).
 
