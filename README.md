@@ -136,6 +136,8 @@ We use **Oracle VirtualBox** as the hypervisor — a tool that lets us create an
 
 Download from: [https://www.virtualbox.org](https://www.virtualbox.org)
 
+![image](https://github.com/user-attachments/assets/59603495-ad0b-4a3c-ae34-67852246a09c)
+
 ---
 
 ### 💾 Step 2: Download CentOS ISO
