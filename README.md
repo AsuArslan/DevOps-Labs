@@ -92,3 +92,32 @@ Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled*
 You can enable this setting in your system's BIOS or UEFI menu. Without this, VirtualBox may fail to launch virtual machines properly.
 
 Once virtualization is enabled, you're ready to proceed with the setup.
+
+
+
+
+
+# Oracle VM & Virtual Machines in DevOps
+
+This branch is dedicated to my exploration and hands-on practice with Virtual Machines (VMs), particularly using Oracle VM/VirtualBox. VMs are essential tools for learning DevOps effectively in a safe, isolated environment.
+
+Here, I share what I've learned about the role of VMs in DevOps, their types, and how they help simulate real-world environments during the learning process.
+
+> 📘 *This section serves as an introduction and conceptual overview.  
+> For practical setup instructions, please continue below.*  
+>  
+> ⬇️⬇️⬇️
+
+---
+
+## ⚠️ Prerequisite: Enable Virtualization in BIOS/UEFI
+
+Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled** on your system:
+
+- For **Intel** CPUs: VT-x  
+- For **AMD** CPUs: AMD-V / SVM
+
+You can enable this setting in your system's BIOS or UEFI menu. Without this, VirtualBox may fail to launch virtual machines properly.
+
+Once virtualization is enabled, you're ready to proceed with the setup.
+
