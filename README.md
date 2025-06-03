@@ -292,8 +292,37 @@ However, if the password is weak, you'll need to click the Done button twice to 
    ![image](https://github.com/user-attachments/assets/96977608-b7fa-4a1b-9d7b-5aa8368259c5)
    ![image](https://github.com/user-attachments/assets/1fe9b239-2fcd-4818-bee9-077594b6d5c7)
 
-
+We’ve set a password for the root user, configured the network, and selected the operating system — now we’re ready to click "Begin Installation".
 Click `Begin Installation`, then wait for the process to complete and reboot.
+
+![image](https://github.com/user-attachments/assets/38ae2906-4e22-4163-b1a3-83673f2f9759)
+
+
+The installation may take approximately 10 to 15 minutes to complete.
+
+![image](https://github.com/user-attachments/assets/ad396c51-1a6e-429d-9020-14d5a619e651)
+
+Once the installation is complete, do not click the Reboot button immediately. Instead, return to the main VirtualBox window and shut down the virtual machine first.
+Then, remove the ISO file from the virtual optical drive —
+otherwise, the VM will boot from the ISO again and restart the installation process.
+
+![image](https://github.com/user-attachments/assets/c5abfe00-6c4a-4b78-9893-965682e32e0d)
+
+![image](https://github.com/user-attachments/assets/3510963e-47fd-49dc-b525-ec793b2ba40b)
+
+![image](https://github.com/user-attachments/assets/47bae81f-b40e-40ff-abc9-99701e7434bd)
+
+When you see the powered-off word in there, you can start the process for iso.
+
+![image](https://github.com/user-attachments/assets/0f974dd6-f7ff-42a1-8edd-ac28449e3c84)
+
+Go to the settings.
+
+![image](https://github.com/user-attachments/assets/9245f747-3c73-4371-aead-013a19a88ff0)
+
+And remove the iso folder from the machine.
+
+![image](https://github.com/user-attachments/assets/2bd2f9c3-b56b-4bfe-a05e-c0b410b6b83c)
 
 ---
 
