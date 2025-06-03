@@ -209,6 +209,40 @@ When downloading CentOS, you may notice there are two common ISO types: `boot.is
 
 ---
 
+---
+
+## 🖱️ Optional: Set Pointing Device to "USB Tablet"
+
+Before starting the VM, it's recommended to change the pointing device to **USB Tablet**.
+
+### 🔹 Why?
+
+By default, VirtualBox uses a "PS/2 Mouse" device for input, which can sometimes cause issues like:
+- Mouse pointer **not aligning correctly** with the host system
+- Cursor **lagging or jumping** inside the VM
+- Difficulty in **seamlessly moving the cursor** between host and VM
+
+The **USB Tablet** option provides:
+- Better integration with the host system
+- More accurate and responsive mouse control
+- Especially helpful if you're using a graphical (GUI) installation
+
+### 🔧 How to Set It:
+1. Go to **VirtualBox Manager**
+2. Select your VM → Click **Settings**
+3. Navigate to **System > Motherboard** tab
+4. Set **Pointing Device** to `USB Tablet`
+
+![image](https://github.com/user-attachments/assets/01f6c08a-428a-4cc1-ad5f-06ef82ca8a19)
+
+
+
+> It’s a small change that can make your graphical installation and VM usage much smoother.
+
+
+
+
+
 ### 📂 Step 4: Mount the ISO and Boot
 
 - Select the VM and click `Start`.
