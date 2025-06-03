@@ -91,8 +91,31 @@ Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled*
 
 You can enable this setting in your system's BIOS or UEFI menu. Without this, VirtualBox may fail to launch virtual machines properly.
 
-Once virtualization is enabled, you're ready to proceed with the setup.
+### 🛑 How to Enable Virtualization in BIOS/UEFI
 
+To enable virtualization (VT-x or AMD-V), follow these steps:
 
+1. **Restart your computer.**
+2. During the boot process (before Windows starts), press the correct key to enter BIOS/UEFI.  
+   Common keys are:
+   - `F2`
+   - `Delete`
+   - `Esc`
+   - `F10`
+   - `F12`
+
+   > 💡 The correct key depends on your computer’s brand. You’ll usually see something like  
+   > “Press [key] to enter Setup” when the computer starts.
+
+3. Once inside BIOS/UEFI:
+   - Go to the **Advanced**, **CPU Configuration**, or **Security** tab (depending on the system).
+   - Look for an option called:
+     - **Intel VT-x** or **Intel Virtualization Technology** (for Intel CPUs)
+     - **SVM Mode** or **AMD-V** (for AMD CPUs)
+   - Set it to **Enabled**.
+
+4. **Save and exit** the BIOS (usually `F10` key), and allow the system to restart.
+
+Once this is done, VirtualBox will be able to run virtual machines successfully.
 
 
