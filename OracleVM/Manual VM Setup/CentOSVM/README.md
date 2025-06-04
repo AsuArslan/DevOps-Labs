@@ -38,7 +38,7 @@ Once this is done, VirtualBox will be able to run virtual machines successfully.
 ---
 
 
-## 🧩 Step-by-Step: Install VirtualBox and Set Up a CentOS Virtual Machine (with Explanations)
+##  Step-by-Step: Install VirtualBox and Set Up a CentOS Virtual Machine (with Explanations)
 
 ---
 
@@ -79,7 +79,7 @@ Use if:
 - You have a fast and stable internet connection  
 - You want to do a minimal or custom install
 
-🔗 Download: [CentOS 9 Stream boot.iso (x86_64)](https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/)
+ Download: [CentOS 9 Stream boot.iso (x86_64)](https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/)
 
 ---
 
@@ -96,7 +96,7 @@ Use if:
 
 ---
 
-📌 **Recommendation**: For virtual machine installation (like in VirtualBox), `dvd1.iso` is usually easier and more reliable.
+ **Recommendation**: For virtual machine installation (like in VirtualBox), `dvd1.iso` is usually easier and more reliable.
 
 
 ---
@@ -156,8 +156,6 @@ The **USB Tablet** option provides:
 
 
 
-
-
 ### Step 4: Mount the ISO and Boot
 
 - Select the VM and click `Start`.
@@ -172,7 +170,7 @@ The **USB Tablet** option provides:
 
 ---
 
-### 🧱 Step 5: CentOS Installation (Explained Choices)
+### Step 5: CentOS Installation (Explained Choices)
 
 1. Choose **Language & Keyboard Layout**: English / your local settings.
 
@@ -264,6 +262,5 @@ Now you're ready to:
 | User setup | Create regular user + root | Follows best practice and security |
 
 ---
-
-✅ You now have a CentOS-based virtual lab ready for DevOps experimentation.  
+ You now have a CentOS-based virtual lab ready for DevOps experimentation.  
 Next, we'll install core tools like Docker, NGINX, or Jenkins.
