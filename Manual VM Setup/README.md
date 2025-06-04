@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/5c2a5928-018a-4697-abe6-aa47fd12bdd0)
 
+![image](https://github.com/user-attachments/assets/cf8e5b98-ad94-448e-a92c-a86622048147)
 
 ## Manual VM Setup: Ubuntu and CentOS
 
