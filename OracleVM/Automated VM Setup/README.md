@@ -1,6 +1,3 @@
-![image](https://github.com/user-attachments/assets/55c20704-c8f7-4907-ad42-06dc80e17945)
-
-
 <img src="https://github.com/user-attachments/assets/55c20704-c8f7-4907-ad42-06dc80e17945" alt="Automated VM Setup" width="500"/>
 
 ### What is Automated VM Setup?
