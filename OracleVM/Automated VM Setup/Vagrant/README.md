@@ -33,7 +33,7 @@ vagrant up               # Start and provision the VM
 vagrant ssh              # Access the VM
 vagrant halt             # Gracefully shut down
 vagrant destroy          # Remove everything
-
+```
 
 ## Vagrant Architecture Overview
 
