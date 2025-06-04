@@ -61,3 +61,24 @@ Alternatively, you can visit the official release page directly:
 https://releases.ubuntu.com/jammy/
 
 Make sure to download the server install image, not the desktop version. The server version is more suitable for VM environments and comes without a graphical interface, which is ideal for DevOps and terminal-based workflows.
+
+![image](https://github.com/user-attachments/assets/2fd224e4-5e97-4241-9e3e-254517355f8c)
+
+---
+### Step 3: Mount the Ubuntu ISO to the Virtual Machine
+Now repeat the same steps for Ubuntu as you did for CentOS.
+
+Go back to the Ubuntu VM settings.
+
+In the Storage section, click on the Empty optical drive under "Controller: IDE".
+
+On the right, click the disk icon and select “Choose a disk file…”.
+
+Locate and select the Ubuntu Server ISO file you downloaded earlier.
+
+Once added, click OK to save the settings.
+
+This will allow your virtual machine to boot from the Ubuntu ISO during the next startup, so you can begin the installation.
+
+![image](https://github.com/user-attachments/assets/d5785b74-83e3-47dc-8424-34d7361c91de)
+
