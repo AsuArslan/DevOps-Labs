@@ -47,17 +47,9 @@ The architecture consists of the following key components:
 - **Hypervisor**: The underlying virtualization engine (e.g., VirtualBox) that runs the actual virtual machines.
 - **Virtual Machines**: VMs launched and managed through Vagrant commands.
 
-### Workflow
-1. `vagrant init <boxname>` – Initialize a project
-2. `vagrant up` – Launch and provision the VM
-3. `vagrant ssh` – Connect to the VM
-4. `vagrant halt` / `destroy` – Manage VM lifecycle
-
 Vagrant reads the **Vagrantfile**, fetches the required box from **Vagrant Cloud**, passes configurations to the **hypervisor**, and provisions one or more **virtual machines** accordingly.
 
 ---
-
-![Vagrant Architecture](path-to-your-generated-architecture-image.png)
 
 
 ![image](https://github.com/user-attachments/assets/64629c3d-ddd9-4a38-bc61-2e15d2e53537)
