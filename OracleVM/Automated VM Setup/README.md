@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/55c20704-c8f7-4907-ad42-06dc80e17945)
 
 What is Automated VM Setup?
 Automated VM setup is the smarter, faster way to spin up virtual machines — without clicking through every. single. prompt.
