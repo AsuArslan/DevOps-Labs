@@ -23,39 +23,11 @@ Ansible (for post-provisioning config & automation)
 
 It’s like meal-prepping, but for your infrastructure. Set it up once, reuse it forever. Perfect for consistency, speed, and avoiding "Wait, why is this VM missing Python again?" nightmares.
 
-
-🔧 ***Kickstart***  
-*For RHEL-based systems like CentOS and Rocky Linux*  
-_Used for automated installations via kickstart config files._
-
----
-
-📦 ***Preseed***  
-*For older Debian/Ubuntu systems*  
-_Answers all installer prompts automatically using preseed files._
-
----
-
-☁️ ***Cloud-init***  
-*Commonly used in Ubuntu and cloud VMs*  
-_Handles initial configuration in cloud environments (e.g., SSH, users)._
-
----
-
-🛠️ ***Packer***  
-*To create reusable and automated VM images*  
-_Build consistent machine images for multiple platforms from a single source._
-
----
-
-📦 ***Vagrant***  
-*For lightweight, reproducible dev environments*  
-_Quickly spin up disposable VMs for development/testing._
-
----
-
-🌍 ***Terraform***  
-*For infrastructure as code — not just VMs!*  
-_Manage cloud infrastructure declaratively across providers._
+[![Kickstart](https://img.shields.io/badge/Kickstart-RHEL--based-informational?style=for-the-badge&logo=redhat)](#)
+[![Preseed](https://img.shields.io/badge/Preseed-Debian--Ubuntu-lightgrey?style=for-the-badge&logo=debian)](#)
+[![Cloud-init](https://img.shields.io/badge/Cloud--init-Ubuntu--Cloud-blue?style=for-the-badge&logo=ubuntu)](#)
+[![Packer](https://img.shields.io/badge/Packer-VM_Image-orange?style=for-the-badge&logo=hashicorp)](#)
+[![Vagrant](https://img.shields.io/badge/Vagrant-Dev_Envs-0052CC?style=for-the-badge&logo=vagrant)](#)
+[![Terraform](https://img.shields.io/badge/Terraform-Infrastructure-purple?style=for-the-badge&logo=terraform)](#)
 
 
