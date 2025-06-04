@@ -1,4 +1,4 @@
-## ⚠️ Prerequisite: Enable Virtualization in BIOS/UEFI
+##⚠️ Prerequisite: Enable Virtualization in BIOS/UEFI
 
 Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled** on your system:
 
@@ -7,7 +7,7 @@ Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled*
 
 You can enable this setting in your system's BIOS or UEFI menu. Without this, VirtualBox may fail to launch virtual machines properly.
 
-###  How to Enable Virtualization in BIOS/UEFI
+### 🛑 How to Enable Virtualization in BIOS/UEFI
 
 To enable virtualization (VT-x or AMD-V), follow these steps:
 
@@ -20,7 +20,7 @@ To enable virtualization (VT-x or AMD-V), follow these steps:
    - `F10`
    - `F12`
 
-   >  The correct key depends on your computer’s brand. You’ll usually see something like  
+   > 💡 The correct key depends on your computer’s brand. You’ll usually see something like  
    > “Press [key] to enter Setup” when the computer starts.
 
 3. Once inside BIOS/UEFI:
@@ -80,67 +80,52 @@ Once added, click OK to save the settings.
 
 This will allow your virtual machine to boot from the Ubuntu ISO during the next startup, so you can begin the installation.
 
-![image](https://github.com/user-attachments/assets/d5785b74-83e3-47dc-8424-34d7361c91de)
+![image](https://github.com/user-attachments/assets/b2d8e8d2-034e-48c5-8525-aae4b87a1103)
+
 
 ---
 
-### Step 4: Create a New VM in VirtualBox for Ubuntu
-Open VirtualBox and click on New.
+Step 4: Start the VM and Begin Installation
+Click Start to launch the virtual machine and begin the Ubuntu installation process.
 
-Fill in the following details:
+From this point on, most of the setup will be straightforward — you can continue by clicking "Done" where applicable.
 
-Name: e.g., Ubuntu-Lab
-
-Type: Linux
-
-This lets VirtualBox apply Linux-optimized defaults.
-
-Version: Ubuntu (64-bit)
-
-Select this to ensure proper compatibility with Ubuntu ISO files.
-
-Memory (RAM): Set it to at least 2048 MB (2 GB)
-
-This amount is sufficient for basic command-line use and package installation. You can increase it if needed.
-
-Hard Disk:
-
-Choose Create a virtual hard disk now.
-
-Select VDI (VirtualBox Disk Image) — recommended for VirtualBox.
-
-Choose Dynamically allocated to save space on your host system.
-
-Set the disk Size to at least 20 GB
-
-This ensures enough room for system files, updates, and essential DevOps tools.
-
----
-
-##  Optional: Set Pointing Device to "USB Tablet"
-
-Before starting the VM, it's recommended to change the pointing device to **USB Tablet**.
-
-###  Why?
-
-By default, VirtualBox uses a "PS/2 Mouse" device for input, which can sometimes cause issues like:
-- Mouse pointer **not aligning correctly** with the host system
-- Cursor **lagging or jumping** inside the VM
-- Difficulty in **seamlessly moving the cursor** between host and VM
-
-The **USB Tablet** option provides:
-- Better integration with the host system
-- More accurate and responsive mouse control
-- Especially helpful if you're using a graphical (GUI) installation
-
-###  How to Set It:
-1. Go to **VirtualBox Manager**
-2. Select your VM → Click **Settings**
-3. Navigate to **System > Motherboard** tab
-4. Set **Pointing Device** to `USB Tablet`
-
-![image](https://github.com/user-attachments/assets/01f6c08a-428a-4cc1-ad5f-06ef82ca8a19)
+Each step is illustrated with screenshots to guide you through the process smoothly.
 
 
-> It’s a small change that can make your graphical installation and VM usage much smoother.
+![image](https://github.com/user-attachments/assets/0c16049b-bf7b-4031-b9d2-67f2e1e0365f)
+
+![image](https://github.com/user-attachments/assets/d8b110db-fba0-412c-a7a7-c9aece97ed8b)
+
+![image](https://github.com/user-attachments/assets/6d6d7450-1d5e-4eaa-bf24-968bbe36607c)
+
+Continue without updating
+
+![image](https://github.com/user-attachments/assets/d73042e4-2dd0-4f1d-acbd-8198db9f84e7)
+
+![image](https://github.com/user-attachments/assets/777a5b8d-9fa4-45d0-8b94-0e3452d0bc68)
+
+You need to see the both network, which is good.
+![image](https://github.com/user-attachments/assets/36970c8c-aa8d-43ed-90f6-27246d42620c)
+
+![image](https://github.com/user-attachments/assets/6a995267-f7e5-44e3-a7c7-c5955caaa86d)
+
+Choose the entire disk option and continue with done
+
+![image](https://github.com/user-attachments/assets/ef2e701d-fbdf-4a2a-a3ec-f75ddeac89ce)
+
+![image](https://github.com/user-attachments/assets/6acb7f26-2c50-48ff-82e3-3d8b31951005)
+
+Fill out the entries
+
+![image](https://github.com/user-attachments/assets/d083c720-ce06-40b6-9811-a6e80ca9ba13)
+
+Choose "OpenSSH Server" option and continue with done
+
+![image](https://github.com/user-attachments/assets/fd7f7013-ecb9-4ae3-a1a5-2417d02691ac)
+
+![image](https://github.com/user-attachments/assets/d9b03ebc-c9a8-4dad-b202-7a84f2f65772)
+
+![image](https://github.com/user-attachments/assets/3b061a64-7bb8-4ac2-9f7b-319336ed1082)
+
 
