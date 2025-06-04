@@ -1,4 +1,4 @@
-##⚠️ Prerequisite: Enable Virtualization in BIOS/UEFI
+### ⚠️ Prerequisite: Enable Virtualization in BIOS/UEFI
 
 Before installing Oracle VM (VirtualBox), make sure **virtualization is enabled** on your system:
 
