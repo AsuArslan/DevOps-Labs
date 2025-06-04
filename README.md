@@ -7,20 +7,20 @@ This repository serves as both a personal knowledge base and a practical portfol
 
 ## 🔍 What to Expect
 
-- ✅ Bite-sized documentation on core DevOps topics
-- ✅ Step-by-step implementation guides
-- ✅ Real-world lab exercises
-- ✅ Troubleshooting logs and practical tips
-- ✅ My personal insights and reflections
+-  Bite-sized documentation on core DevOps topics
+- Step-by-step implementation guides
+-  Real-world lab exercises
+-  Troubleshooting logs and practical tips
+-  My personal insights and reflections
 
-## 🗂️ Structure
+## Structure
 
 This `know-how` branch is dedicated to pure knowledge — curated notes, tool breakdowns, and essential theory. Other branches may include project code, configurations, and infrastructure templates.
 
 
 
 
-## 🚀 Why This Exists
+##  Why This Exists
 
 As someone transitioning into the DevOps field, I believe in learning by doing and documenting as I go. This repo reflects my commitment to mastering DevOps with clarity and discipline.
 
